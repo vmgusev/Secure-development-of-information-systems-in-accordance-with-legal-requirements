@@ -1,0 +1,405 @@
+ОТЧЕТ ПО АНАЛИЗУ СОГЛАСИЙ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+======================================================================
+
+Дата анализа: 17.10.2025 09:25:58
+Исходная папка: /Users/vg/Downloads/Практические занятия-20251015/ПрактическаяРабота№2r/Practice2Variants/Variant7
+Выходная папка: /Users/vg/Downloads/Практические занятия-20251015/src/Практическая_работа_2/practice2_results
+
+СТАТИСТИКА:
+--------------------
+Правильно оформленных согласий: 628
+Неправильно оформленных согласий: 372
+Всего обработано: 1000
+
+Процент правильных согласий: 62.8%
+
+ОБЯЗАТЕЛЬНЫЕ ПОЛЯ СОГЛАСИЯ (согласно ФЗ-152):
+--------------------------------------------------
+1. ФИО субъекта персональных данных
+2. Адрес субъекта персональных данных
+3. Номер паспорта
+4. Сведения о дате выдачи паспорта
+5. Сведения о выдавшем паспорт органе
+6. Наименование/ФИО оператора
+7. Адрес оператора
+8. Цель обработки персональных данных
+9. Перечень персональных данных
+10. Перечень действий с персональными данными
+11. Срок действия согласия
+12. Способ отзыва согласия
+13. Подпись субъекта персональных данных
+
+ОБНАРУЖЕННЫЕ ОШИБКИ:
+--------------------
+• PDAgreement100.txt: Отсутствует поле: actions
+• PDAgreement101.txt: Отсутствует поле: data_list
+• PDAgreement102.txt: Отсутствует поле: passport_issued
+• PDAgreement104.txt: Отсутствует поле: subject_name
+• PDAgreement106.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement108.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement11.txt: Отсутствует поле: passport_issued
+• PDAgreement113.txt: Отсутствует поле: passport_issued
+• PDAgreement117.txt: Отсутствует поле: passport_authority
+• PDAgreement119.txt: Отсутствует поле: purpose
+• PDAgreement12.txt: Отсутствует поле: subject_name
+• PDAgreement123.txt: Отсутствует поле: passport_issued
+• PDAgreement125.txt: Отсутствует поле: data_list
+• PDAgreement127.txt: Отсутствует поле: subject_name
+• PDAgreement13.txt: Отсутствует поле: passport_authority
+• PDAgreement130.txt: Отсутствует поле: subject_name
+• PDAgreement132.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement134.txt: Отсутствует поле: subject_name
+• PDAgreement137.txt: Отсутствует поле: subject_name
+• PDAgreement14.txt: Отсутствует поле: withdrawal
+• PDAgreement140.txt: Отсутствует поле: subject_passport
+• PDAgreement147.txt: Отсутствует поле: subject_name
+• PDAgreement149.txt: Отсутствует поле: actions
+• PDAgreement15.txt: Отсутствует поле: actions
+• PDAgreement151.txt: Отсутствует поле: passport_authority
+• PDAgreement152.txt: Отсутствует поле: withdrawal
+• PDAgreement153.txt: Отсутствует поле: data_list
+• PDAgreement154.txt: Отсутствует поле: withdrawal
+• PDAgreement155.txt: Отсутствует поле: passport_issued
+• PDAgreement156.txt: Отсутствует поле: withdrawal
+• PDAgreement158.txt: Отсутствует поле: purpose
+• PDAgreement16.txt: Отсутствует поле: passport_authority
+• PDAgreement162.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement163.txt: Отсутствует поле: purpose
+• PDAgreement164.txt: Отсутствует поле: subject_passport
+• PDAgreement169.txt: Отсутствует поле: subject_name
+• PDAgreement170.txt: Отсутствует поле: actions
+• PDAgreement174.txt: Отсутствует поле: purpose
+• PDAgreement179.txt: Отсутствует поле: passport_authority
+• PDAgreement182.txt: Отсутствует поле: passport_authority
+• PDAgreement185.txt: Отсутствует поле: passport_authority
+• PDAgreement187.txt: Отсутствует поле: passport_issued
+• PDAgreement188.txt: Отсутствует поле: purpose
+• PDAgreement19.txt: Отсутствует поле: subject_name
+• PDAgreement195.txt: Отсутствует поле: passport_authority
+• PDAgreement196.txt: Отсутствует поле: passport_authority
+• PDAgreement198.txt: Отсутствует поле: actions
+• PDAgreement20.txt: Отсутствует поле: subject_passport
+• PDAgreement203.txt: Отсутствует поле: subject_name
+• PDAgreement205.txt: Отсутствует поле: actions
+• PDAgreement206.txt: Отсутствует поле: passport_issued
+• PDAgreement209.txt: Отсутствует поле: subject_passport
+• PDAgreement21.txt: Отсутствует поле: subject_passport
+• PDAgreement210.txt: Отсутствует поле: subject_name
+• PDAgreement211.txt: Отсутствует поле: withdrawal
+• PDAgreement212.txt: Отсутствует поле: actions
+• PDAgreement214.txt: Отсутствует поле: data_list
+• PDAgreement216.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement22.txt: Отсутствует поле: withdrawal
+• PDAgreement221.txt: Отсутствует поле: subject_name
+• PDAgreement233.txt: Отсутствует поле: passport_authority
+• PDAgreement237.txt: Отсутствует поле: subject_name
+• PDAgreement239.txt: Отсутствует поле: actions
+• PDAgreement243.txt: Отсутствует поле: subject_passport
+• PDAgreement248.txt: Отсутствует поле: passport_authority
+• PDAgreement255.txt: Отсутствует поле: passport_authority
+• PDAgreement259.txt: Отсутствует поле: passport_authority
+• PDAgreement26.txt: Отсутствует поле: subject_passport
+• PDAgreement260.txt: Отсутствует поле: subject_passport
+• PDAgreement261.txt: Отсутствует поле: data_list
+• PDAgreement263.txt: Отсутствует поле: subject_name
+• PDAgreement264.txt: Отсутствует поле: data_list
+• PDAgreement267.txt: Отсутствует поле: subject_name
+• PDAgreement269.txt: Отсутствует поле: subject_name
+• PDAgreement271.txt: Отсутствует поле: withdrawal
+• PDAgreement272.txt: Отсутствует поле: data_list
+• PDAgreement276.txt: Отсутствует поле: passport_issued
+• PDAgreement279.txt: Отсутствует поле: subject_name
+• PDAgreement28.txt: Отсутствует поле: actions
+• PDAgreement281.txt: Отсутствует поле: passport_issued
+• PDAgreement282.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement283.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement287.txt: Отсутствует поле: subject_name
+• PDAgreement288.txt: Отсутствует поле: subject_name
+• PDAgreement289.txt: Отсутствует поле: actions
+• PDAgreement29.txt: Отсутствует поле: actions
+• PDAgreement293.txt: Отсутствует поле: withdrawal
+• PDAgreement297.txt: Отсутствует поле: passport_issued
+• PDAgreement298.txt: Отсутствует поле: passport_issued
+• PDAgreement300.txt: Отсутствует поле: passport_authority
+• PDAgreement301.txt: Отсутствует поле: passport_issued
+• PDAgreement302.txt: Отсутствует поле: passport_authority
+• PDAgreement306.txt: Отсутствует поле: actions
+• PDAgreement308.txt: Отсутствует поле: subject_passport
+• PDAgreement313.txt: Отсутствует поле: actions
+• PDAgreement315.txt: Отсутствует поле: subject_passport
+• PDAgreement317.txt: Отсутствует поле: passport_authority
+• PDAgreement320.txt: Отсутствует поле: withdrawal
+• PDAgreement322.txt: Отсутствует поле: passport_authority
+• PDAgreement323.txt: Отсутствует поле: passport_authority
+• PDAgreement328.txt: Отсутствует поле: actions
+• PDAgreement330.txt: Отсутствует поле: subject_name
+• PDAgreement332.txt: Отсутствует поле: subject_passport
+• PDAgreement333.txt: Отсутствует поле: withdrawal
+• PDAgreement335.txt: Отсутствует поле: data_list
+• PDAgreement338.txt: Отсутствует поле: data_list
+• PDAgreement34.txt: Отсутствует поле: subject_passport
+• PDAgreement340.txt: Отсутствует поле: withdrawal
+• PDAgreement345.txt: Отсутствует поле: passport_issued
+• PDAgreement348.txt: Отсутствует поле: actions
+• PDAgreement351.txt: Отсутствует поле: subject_name
+• PDAgreement356.txt: Отсутствует поле: withdrawal
+• PDAgreement360.txt: Отсутствует поле: withdrawal
+• PDAgreement361.txt: Отсутствует поле: subject_passport
+• PDAgreement363.txt: Отсутствует поле: subject_passport
+• PDAgreement365.txt: Отсутствует поле: passport_issued
+• PDAgreement374.txt: Отсутствует поле: data_list
+• PDAgreement379.txt: Отсутствует поле: passport_issued
+• PDAgreement381.txt: Отсутствует поле: purpose
+• PDAgreement382.txt: Отсутствует поле: subject_name
+• PDAgreement383.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement389.txt: Отсутствует поле: actions
+• PDAgreement390.txt: Отсутствует поле: passport_authority
+• PDAgreement395.txt: Отсутствует поле: passport_authority
+• PDAgreement397.txt: Отсутствует поле: subject_name
+• PDAgreement399.txt: Отсутствует поле: withdrawal
+• PDAgreement40.txt: Отсутствует поле: actions
+• PDAgreement400.txt: Отсутствует поле: subject_name
+• PDAgreement401.txt: Отсутствует поле: withdrawal
+• PDAgreement406.txt: Отсутствует поле: purpose
+• PDAgreement407.txt: Отсутствует поле: withdrawal
+• PDAgreement408.txt: Отсутствует поле: subject_name
+• PDAgreement41.txt: Отсутствует поле: data_list
+• PDAgreement413.txt: Отсутствует поле: passport_authority
+• PDAgreement414.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement415.txt: Отсутствует поле: subject_passport
+• PDAgreement420.txt: Отсутствует поле: subject_passport
+• PDAgreement422.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement424.txt: Отсутствует поле: passport_authority
+• PDAgreement426.txt: Отсутствует поле: passport_authority
+• PDAgreement427.txt: Отсутствует поле: data_list
+• PDAgreement428.txt: Отсутствует поле: withdrawal
+• PDAgreement430.txt: Отсутствует поле: passport_authority
+• PDAgreement433.txt: Отсутствует поле: purpose
+• PDAgreement434.txt: Отсутствует поле: passport_issued
+• PDAgreement438.txt: Отсутствует поле: subject_name
+• PDAgreement439.txt: Отсутствует поле: subject_name
+• PDAgreement441.txt: Отсутствует поле: purpose
+• PDAgreement442.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement45.txt: Отсутствует поле: withdrawal
+• PDAgreement451.txt: Отсутствует поле: data_list
+• PDAgreement454.txt: Отсутствует поле: passport_issued
+• PDAgreement456.txt: Отсутствует поле: subject_passport
+• PDAgreement458.txt: Отсутствует поле: subject_name
+• PDAgreement46.txt: Отсутствует поле: passport_authority
+• PDAgreement460.txt: Отсутствует поле: passport_authority
+• PDAgreement464.txt: Отсутствует поле: actions
+• PDAgreement465.txt: Отсутствует поле: passport_issued
+• PDAgreement468.txt: Отсутствует поле: passport_authority
+• PDAgreement47.txt: Отсутствует поле: passport_issued
+• PDAgreement475.txt: Отсутствует поле: data_list
+• PDAgreement48.txt: Отсутствует поле: data_list
+• PDAgreement480.txt: Отсутствует поле: subject_name
+• PDAgreement490.txt: Отсутствует поле: passport_authority
+• PDAgreement491.txt: Отсутствует поле: purpose
+• PDAgreement493.txt: Отсутствует поле: subject_name
+• PDAgreement495.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement498.txt: Отсутствует поле: subject_passport
+• PDAgreement50.txt: Отсутствует поле: actions
+• PDAgreement502.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement503.txt: Отсутствует поле: subject_name
+• PDAgreement504.txt: Отсутствует поле: data_list
+• PDAgreement508.txt: Отсутствует поле: subject_passport
+• PDAgreement51.txt: Отсутствует поле: data_list
+• PDAgreement510.txt: Отсутствует поле: passport_authority
+• PDAgreement513.txt: Отсутствует поле: passport_authority
+• PDAgreement517.txt: Отсутствует поле: passport_authority
+• PDAgreement519.txt: Отсутствует поле: passport_authority
+• PDAgreement52.txt: Отсутствует поле: passport_authority
+• PDAgreement523.txt: Отсутствует поле: purpose
+• PDAgreement525.txt: Отсутствует поле: passport_authority
+• PDAgreement527.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement532.txt: Отсутствует поле: withdrawal
+• PDAgreement537.txt: Отсутствует поле: subject_passport
+• PDAgreement540.txt: Отсутствует поле: passport_authority
+• PDAgreement541.txt: Отсутствует поле: actions
+• PDAgreement542.txt: Отсутствует поле: passport_authority
+• PDAgreement546.txt: Отсутствует поле: purpose
+• PDAgreement549.txt: Отсутствует поле: subject_passport
+• PDAgreement550.txt: Отсутствует поле: subject_name
+• PDAgreement551.txt: Отсутствует поле: withdrawal
+• PDAgreement552.txt: Отсутствует поле: passport_issued
+• PDAgreement56.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement560.txt: Отсутствует поле: subject_name
+• PDAgreement561.txt: Отсутствует поле: actions
+• PDAgreement562.txt: Отсутствует поле: data_list
+• PDAgreement564.txt: Отсутствует поле: withdrawal
+• PDAgreement566.txt: Отсутствует поле: withdrawal
+• PDAgreement571.txt: Отсутствует поле: data_list
+• PDAgreement573.txt: Отсутствует поле: passport_authority
+• PDAgreement578.txt: Отсутствует поле: subject_passport
+• PDAgreement581.txt: Отсутствует поле: data_list
+• PDAgreement584.txt: Отсутствует поле: passport_issued
+• PDAgreement585.txt: Отсутствует поле: data_list
+• PDAgreement594.txt: Отсутствует поле: subject_passport
+• PDAgreement596.txt: Отсутствует поле: subject_name
+• PDAgreement597.txt: Отсутствует поле: purpose
+• PDAgreement603.txt: Отсутствует поле: passport_authority
+• PDAgreement605.txt: Отсутствует поле: actions
+• PDAgreement609.txt: Отсутствует поле: passport_authority
+• PDAgreement610.txt: Отсутствует поле: passport_authority
+• PDAgreement611.txt: Отсутствует поле: passport_authority
+• PDAgreement613.txt: Отсутствует поле: passport_authority
+• PDAgreement615.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement616.txt: Отсутствует поле: subject_passport
+• PDAgreement617.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement619.txt: Отсутствует поле: withdrawal
+• PDAgreement620.txt: Отсутствует поле: withdrawal
+• PDAgreement622.txt: Отсутствует поле: subject_passport
+• PDAgreement623.txt: Отсутствует поле: passport_issued
+• PDAgreement627.txt: Отсутствует поле: withdrawal
+• PDAgreement631.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement633.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement634.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement636.txt: Отсутствует поле: passport_authority
+• PDAgreement640.txt: Отсутствует поле: passport_issued
+• PDAgreement641.txt: Отсутствует поле: subject_passport
+• PDAgreement643.txt: Отсутствует поле: passport_authority
+• PDAgreement647.txt: Отсутствует поле: subject_passport
+• PDAgreement648.txt: Отсутствует поле: subject_name
+• PDAgreement651.txt: Отсутствует поле: passport_authority
+• PDAgreement656.txt: Отсутствует поле: passport_issued
+• PDAgreement659.txt: Отсутствует поле: passport_authority
+• PDAgreement663.txt: Отсутствует поле: data_list
+• PDAgreement666.txt: Отсутствует поле: data_list
+• PDAgreement67.txt: Отсутствует поле: subject_passport
+• PDAgreement675.txt: Отсутствует поле: data_list
+• PDAgreement676.txt: Отсутствует поле: withdrawal
+• PDAgreement678.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement679.txt: Отсутствует поле: passport_issued
+• PDAgreement68.txt: Отсутствует поле: subject_passport
+• PDAgreement680.txt: Отсутствует поле: subject_passport
+• PDAgreement681.txt: Отсутствует поле: withdrawal
+• PDAgreement682.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement683.txt: Отсутствует поле: withdrawal
+• PDAgreement685.txt: Отсутствует поле: subject_passport
+• PDAgreement689.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement69.txt: Отсутствует поле: purpose
+• PDAgreement691.txt: Отсутствует поле: purpose
+• PDAgreement696.txt: Отсутствует поле: subject_name
+• PDAgreement697.txt: Отсутствует поле: withdrawal
+• PDAgreement698.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement701.txt: Отсутствует поле: data_list
+• PDAgreement702.txt: Отсутствует поле: withdrawal
+• PDAgreement707.txt: Отсутствует поле: subject_name
+• PDAgreement71.txt: Отсутствует поле: subject_passport
+• PDAgreement713.txt: Отсутствует поле: data_list
+• PDAgreement714.txt: Отсутствует поле: subject_passport
+• PDAgreement716.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement717.txt: Отсутствует поле: data_list
+• PDAgreement727.txt: Отсутствует поле: actions
+• PDAgreement73.txt: Отсутствует поле: withdrawal
+• PDAgreement730.txt: Отсутствует поле: subject_passport
+• PDAgreement735.txt: Отсутствует поле: subject_passport
+• PDAgreement74.txt: Отсутствует поле: passport_issued
+• PDAgreement741.txt: Отсутствует поле: data_list
+• PDAgreement743.txt: Отсутствует поле: subject_passport
+• PDAgreement746.txt: Отсутствует поле: subject_name
+• PDAgreement748.txt: Отсутствует поле: actions
+• PDAgreement75.txt: Отсутствует поле: subject_name
+• PDAgreement750.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement754.txt: Отсутствует поле: subject_passport
+• PDAgreement755.txt: Отсутствует поле: data_list
+• PDAgreement761.txt: Отсутствует поле: subject_passport
+• PDAgreement763.txt: Отсутствует поле: passport_authority
+• PDAgreement768.txt: Отсутствует поле: passport_authority
+• PDAgreement77.txt: Отсутствует поле: passport_authority
+• PDAgreement770.txt: Отсутствует поле: data_list
+• PDAgreement773.txt: Отсутствует поле: data_list
+• PDAgreement778.txt: Отсутствует поле: actions
+• PDAgreement78.txt: Отсутствует поле: withdrawal
+• PDAgreement780.txt: Отсутствует поле: actions
+• PDAgreement782.txt: Отсутствует поле: passport_authority
+• PDAgreement790.txt: Отсутствует поле: actions
+• PDAgreement792.txt: Отсутствует поле: subject_name
+• PDAgreement795.txt: Отсутствует поле: withdrawal
+• PDAgreement796.txt: Отсутствует поле: passport_issued
+• PDAgreement80.txt: Отсутствует поле: purpose
+• PDAgreement800.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement801.txt: Отсутствует поле: data_list
+• PDAgreement802.txt: Отсутствует поле: data_list
+• PDAgreement804.txt: Отсутствует поле: withdrawal
+• PDAgreement806.txt: Отсутствует поле: data_list
+• PDAgreement812.txt: Отсутствует поле: data_list
+• PDAgreement813.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement815.txt: Отсутствует поле: subject_name
+• PDAgreement816.txt: Отсутствует поле: passport_issued
+• PDAgreement817.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement819.txt: Отсутствует поле: subject_passport
+• PDAgreement820.txt: Отсутствует поле: actions
+• PDAgreement821.txt: Отсутствует поле: purpose
+• PDAgreement823.txt: Отсутствует поле: purpose
+• PDAgreement829.txt: Отсутствует поле: subject_passport
+• PDAgreement83.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement832.txt: Отсутствует поле: passport_issued
+• PDAgreement834.txt: Отсутствует поле: passport_issued
+• PDAgreement835.txt: Отсутствует поле: withdrawal
+• PDAgreement839.txt: Отсутствует поле: passport_authority
+• PDAgreement842.txt: Отсутствует поле: withdrawal
+• PDAgreement844.txt: Отсутствует поле: passport_issued
+• PDAgreement848.txt: Отсутствует поле: passport_issued
+• PDAgreement850.txt: Отсутствует поле: actions
+• PDAgreement853.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement858.txt: Отсутствует поле: passport_issued
+• PDAgreement859.txt: Отсутствует поле: passport_authority
+• PDAgreement86.txt: Отсутствует поле: subject_name
+• PDAgreement862.txt: Отсутствует поле: purpose
+• PDAgreement863.txt: Отсутствует поле: purpose
+• PDAgreement868.txt: Отсутствует поле: purpose
+• PDAgreement87.txt: Отсутствует поле: passport_authority
+• PDAgreement871.txt: Отсутствует поле: data_list
+• PDAgreement873.txt: Отсутствует поле: passport_issued
+• PDAgreement876.txt: Отсутствует поле: subject_name
+• PDAgreement878.txt: Отсутствует поле: data_list
+• PDAgreement884.txt: Отсутствует поле: data_list
+• PDAgreement891.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement892.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement894.txt: Отсутствует поле: data_list
+• PDAgreement896.txt: Отсутствует поле: passport_issued
+• PDAgreement897.txt: Отсутствует поле: actions
+• PDAgreement898.txt: Отсутствует поле: passport_authority
+• PDAgreement903.txt: Отсутствует поле: data_list
+• PDAgreement904.txt: Отсутствует поле: passport_issued
+• PDAgreement906.txt: Отсутствует поле: subject_passport
+• PDAgreement908.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement910.txt: Отсутствует поле: subject_passport
+• PDAgreement911.txt: Отсутствует поле: passport_issued
+• PDAgreement913.txt: Отсутствует поле: passport_authority
+• PDAgreement919.txt: Отсутствует поле: actions
+• PDAgreement921.txt: Отсутствует поле: data_list
+• PDAgreement922.txt: Отсутствует поле: purpose
+• PDAgreement924.txt: Отсутствует поле: passport_issued
+• PDAgreement932.txt: Отсутствует поле: withdrawal
+• PDAgreement934.txt: Отсутствует поле: subject_name
+• PDAgreement936.txt: Отсутствует поле: passport_authority
+• PDAgreement94.txt: Отсутствует поле: data_list
+• PDAgreement942.txt: Отсутствует поле: data_list
+• PDAgreement943.txt: Отсутствует поле: subject_name
+• PDAgreement946.txt: Отсутствует поле: actions
+• PDAgreement948.txt: Отсутствует поле: data_list
+• PDAgreement951.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement953.txt: Отсутствует поле: passport_issued
+• PDAgreement957.txt: Отсутствует поле: data_list
+• PDAgreement959.txt: Отсутствует поле: subject_passport
+• PDAgreement96.txt: Отсутствует поле: subject_name
+• PDAgreement965.txt: Отсутствует поле: subject_passport
+• PDAgreement97.txt: Отсутствует поле: subject_name
+• PDAgreement970.txt: Отсутствует поле: withdrawal
+• PDAgreement973.txt: Отсутствует поле: subject_passport
+• PDAgreement976.txt: Отсутствует поле: subject_name
+• PDAgreement978.txt: Отсутствует поле: data_list
+• PDAgreement98.txt: Отсутствует поле: subject_name
+• PDAgreement981.txt: Отсутствует поле: passport_issued
+• PDAgreement982.txt: Отсутствует поле: withdrawal
+• PDAgreement984.txt: Отсутствует поле: signature, Отсутствует упоминание подписи
+• PDAgreement985.txt: Отсутствует поле: subject_name
+• PDAgreement987.txt: Отсутствует поле: actions
+• PDAgreement992.txt: Отсутствует поле: passport_issued
+• PDAgreement993.txt: Отсутствует поле: data_list
+• PDAgreement994.txt: Отсутствует поле: withdrawal
+• PDAgreement995.txt: Отсутствует поле: passport_authority
+• PDAgreement996.txt: Отсутствует поле: subject_passport
